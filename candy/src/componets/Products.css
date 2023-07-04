@@ -4,6 +4,7 @@
     font-size: 30px;
     font-family: 'Emilys Candy', cursive;
     color: #fff;
+    
 }
 .products{
     width: 100%;
@@ -11,6 +12,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     place-items: center;
+   
+    
     
 }
 .product{
@@ -21,11 +24,11 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-    padding-top: 4rem;
+    padding-top: 2rem;
     align-items: center;
-    
-    border: 1px solid red;
+    background-color: violet;
+    border-radius: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .product img{
     width: 150px;
@@ -34,11 +37,24 @@
 .product .descrit{
     text-align: center;
     color: #fff;
-    
+    font-size: 2rem;
+   
 
 }
+
 .add_btn{
     color: #fff;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.74);
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+.add_btn:hover{
+    background-color:rgba(0, 0, 0, 0.89);
 }
   
   

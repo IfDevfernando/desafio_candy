@@ -55,7 +55,7 @@ export const PRODUCTS=[
        productName:"Sonho",
        price:2.0,
        productImage:doce8,
-    },
+    }
 
 
 ]

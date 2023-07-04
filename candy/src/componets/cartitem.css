@@ -1,0 +1,61 @@
+.cartitem{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    width: 80%;
+    height: 200px;
+    background-color:violet;
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+button{
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    font-weight: bold;
+}
+input{
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+}
+.checkout{
+    background-color: black;
+    color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.5rem;
+}
+.checkout button{
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: #fff;
+    border: 1px solid white;
+    transition: .5s;
+}
+.fina{
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: #fff;
+    border: 1px solid white;
+    transition: .5s;
+}
+.checkout button:hover{
+    background-color: violet;
+    
+}

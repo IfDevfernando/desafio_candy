@@ -3,11 +3,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     height: 80px;
     background-color:black;
     color: #fff;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding-top: 20px;
+    box-shadow: rgba(117, 116, 116, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.151) 0px 10px 10px -5px;
 
+}
+
+.loli{
+    color:violet;
+}
+.links svg{
+    color: #fff;
+    transition: .5s;
+}
+.links svg:hover{
+    color: violet;
 }
 .container_nav h1{
     font-family:'Emilys Candy', cursive;
